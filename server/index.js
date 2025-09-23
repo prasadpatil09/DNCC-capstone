@@ -18,7 +18,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: ["http://localhost:5173", "https://zm1wqhlh-5173.inc1.devtunnels.ms"],
+    origin: ["https://dncc-1.onrender.com", "https://zm1wqhlh-5173.inc1.devtunnels.ms"],
     credentials: true
 }));
 app.use(cookieParser());

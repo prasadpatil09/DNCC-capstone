@@ -71,7 +71,7 @@ router.post("/forgot", async (req, res) => {
     from: "ytchannel2ai@gmail.com",
     to: mail,
     subject: "Reset Password Link",
-    text: `http://localhost:5173/reset/${token}`,
+    text: `https://dncc-1.onrender.com/reset/${token}`,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
